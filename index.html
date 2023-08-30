@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        a {
+            font-size: 30px;
+            padding: 15px;
+            color: white;
+        }
+
+        #about-me:hover{
+            background: url(https://media.tenor.com/22w_5_1Iee8AAAAC/monkey-lick.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 300px 150px;
+        }
+
+        a:active{
+            color: red;
+        }
+
+        nav{
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/%E1%9E%96%E1%9F%92%E1%9E%9A%E1%9F%83%E1%9E%80%E1%9E%98%E1%9F%92%E1%9E%96%E1%9E%BB%E1%9E%87%E1%9E%B6.jpg/1200px-%E1%9E%96%E1%9F%92%E1%9E%9A%E1%9F%83%E1%9E%80%E1%9E%98%E1%9F%92%E1%9E%96%E1%9E%BB%E1%9E%87%E1%9E%B6.jpg);
+            color: white;
+            text-align: center;
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 150px;
+        }
+
+        #self-img{
+            margin: auto;
+            width: 25%;
+            margin-top: 25px;
+            text-align: center;
+        }
+        #self-img>h1:hover{
+            background: url(https://media.tenor.com/vGtGS8-MT_gAAAAM/gorila-ass.gif);
+            color: teal;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-size: 150px;
+        }
+        img{
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        img:hover{
+            border-radius: 0%;
+            
+        }
+
+        #self-intro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 15px;
+            margin-top: 15px;
+            border: 3px dotted black;
+            background: blanchedalmond;
+        }
+
+        iframe {
+            margin-top: 15px;
+        }
+        #video-containers {
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        footer {
+            background: grey;
+            color: black;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        #biography{
+            background: lightblue;
+            margin-top: 30px;
+            border: 3px dotted black;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <span>
+            <a id='home'href="https://www.gov.sg/">Home</a>
+            <a id="about-me"href="https://en.wikipedia.org/wiki/Monkey">About me</a>
+            <a id='store'href="https://brandonlhk.github.io/store.html">My Store!</a>
+        </span>
+        
+    </nav>
+
+    <!-- Smiling Monkey Image -->
+    <div id="self-img">
+        <h1>Me</h1>
+        <img src="https://static01.nyt.com/images/2017/09/12/us/12xp-monkey1/12xp-monkey1-superJumbo.jpg">
+    </div>
+
+    <!-- Self Intro -->
+    <div id="self-intro">
+        <p>
+            hello guys i wanted to show you my meme collections but the video can't play for some reason... so here's my favourite travel spots
+        </p>
+        
+        <span id="video-containers">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/UrbTTrgLB5A?autoplay=1&mute=1"></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/LKXvdyNz6L8?autoplay=1&mute=1"></iframe>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/HI6mt2w89rU?autoplay=1&mute=1"></iframe>
+        </span>        
+    </div>
+
+    <div id="biography">
+        <h1>My Biography</h1>
+        <p>I'm a 24 year old monkey living in the forest of South America, life is pretty chill here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facilis sit, molestiae quis quos laborum, ab a nostrum, veritatis ratione dolor maxime. Delectus perspiciatis, iusto nihil beatae temporibus nesciunt facilis!</p>
+    </div>
+    <footer>
+        please give me my class participation points
+    </footer>
+</body>
+</html>
